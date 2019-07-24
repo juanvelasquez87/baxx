@@ -1,0 +1,74 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#padre{
+    padding-top: 5px;
+    background-color: orangered;
+}
+div{
+    padding-top: 1px;
+}
+header{
+
+font-size: 20px;
+background-color: coral;
+padding: 1px;
+
+}
+#lista{
+background-color: orangered;
+width: 100%;
+height: 5%;
+position: fixed 0px;
+}
+.list{
+display: inline-block;
+margin: 2px;
+color: white;
+}
+#sec2{
+margin: 0%;
+background-color: darkgrey;
+height: 40%;
+padding: 3%;
+
+}
+.prod{
+margin: 5px;
+border: 1px solid black;
+padding: 4%;
+display: inline-block;
+background-color: whitesmoke;
+text-align: center;
+width: 15%;
+height: 22%;
+}
+
+#redes{
+display: inline-block;
+display: flex;
+justify-content: center;
+margin-bottom: 15px;
+}
+.red{
+display: inline;
+width: 5%;
+height: 5%;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+border-bottom-right-radius: 50%;
+border-bottom-left-radius: 50%;
+}
+.ima{
+    border-radius: 50%;
+}
+footer{
+background-color: bisque;
+justify-content: center;
+display: flex;
+}
+.foot{
+padding: 2%;
+margin:auto;
+
+}
